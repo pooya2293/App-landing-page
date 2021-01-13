@@ -1,5 +1,26 @@
-.jumbotron {
-	background:url(picture/freenaturestock-1756.jpg) center center;
+.jumbotron-fluid {
+	background:url(C:/Users/poorya/Documents/GitHub/picture/app-landing/freenaturestock-1756.jpg) center center;
 	background-size: cover ;
 	height: 500px;
 }
+
+.logo{
+	width:75px;
+	height:75px;
+	margin: 12px;
+	opacity:50%;
+
+}
+
+.logo:hover{
+	width:75px;
+	height:75px;
+	margin: 12px;
+	opacity:95%;
+
+/*shadow png object*/
+-webkit-filter: drop-shadow(2px 2px 10px #FFF);
+  filter: drop-shadow(2px 2px 10px #FFF);
+
+}
+
