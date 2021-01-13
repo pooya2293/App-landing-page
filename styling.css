@@ -57,6 +57,8 @@ margin-top:80px;
 .lottie{
 margin-left:50px;
 border-radius:50%;
+width: 250px; 
+height: 250px;
 }
 
 .trail {
@@ -65,6 +67,39 @@ text-align: center;
 padding:20px 0 40px 0;
 }
 
+/*Add styling for devises under 480p*/
+@media (max-width:500px){
+.jumbotron-fluid {
+	
+	margin: 0;
+	height: 400px;
+}
 
+
+
+/*creat pading whit logo ant texts*/
+.feature h1 {
+padding-top:30px;
+}
+
+.feature a {
+margin-top:10px;
+width:160px;
+margin-right:20px;
+}
+
+.col img {
+height:30px;
+width:100px;
+margin-top:80px;
+}
+
+.lottie{
+margin-left:5px;
+border-radius:50%;
+width:130px;
+height:130px;
+}
+}
 
 
