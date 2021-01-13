@@ -31,7 +31,12 @@
 /*color of feature */
 .feature {
 color:#fff;
+
+margin-left: 100px;
+margin-top:30px;
+
 }
+
 
 /*creat pading whit logo ant texts*/
 .feature h1 {
@@ -67,8 +72,9 @@ text-align: center;
 padding:20px 0 40px 0;
 }
 
-/*Add styling for devises under 480p*/
-@media (max-width:500px){
+
+/*Add styling for devises under 480px*/
+@media (max-width: 500px){
 .jumbotron-fluid {
 	
 	margin: 0;
@@ -102,4 +108,77 @@ height:130px;
 }
 }
 
+/*Add styling for devises under 768p*/
+@media (min-width: 501px) and (max-width: 768px){
 
+.jumbotron-fluid {
+	margin: 0;
+	height: 450px;
+}
+
+.feature h1 {
+padding-top:50px;
+}
+
+.feature a {
+margin-top:20px;
+width:160px;
+margin-right:20px;
+}
+
+.col img {
+height:50px;
+width:130px;
+margin-top:80px;
+}
+
+.lottie{
+margin-left:5px;
+border-radius:50%;
+width:130px;
+height:130px;
+}
+
+}
+
+/*Add styling for devises under 770p*/
+@media (min-width: 769px) and (max-width: 999px){
+
+.jumbotron-fluid {
+	margin: 0;
+	height: 450px;
+}
+
+.feature {
+
+margin-top:-90px;
+text-align:right;
+
+}
+
+.feature h1 {
+padding-top:50px;
+}
+
+.feature a {
+margin-top:20px;
+width:160px;
+margin-right:20px;
+}
+
+.col img {
+height:70px;
+width:180px;
+margin-top:80px;
+}
+
+.lottie{
+margin-left:23px;
+border-radius:50%;
+width:170px;
+height:170px;
+}
+
+
+
+}
