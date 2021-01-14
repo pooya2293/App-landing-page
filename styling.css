@@ -73,8 +73,50 @@ text-align: center;
 padding:20px 0 40px 0;
 }
 
+/*add styling for devises under 425*/
+@media (max-width: 425px) {
 
-/*Add styling for devises under 480px*/
+.feature {
+
+margin-top:-45px;
+
+}
+
+.logo{
+
+	width:55px;
+	height:55px;
+
+}
+
+h1 {
+	font-size: 27px;
+}
+.feature p {
+
+margin-top:50px;
+font-size: 16px;
+
+}
+
+.feature a {
+	margin-top:10px;
+}
+
+.row {
+	margin-top: -50px;
+}
+
+.col img {
+height:80px;
+width:250px;
+margin-top:80px;
+}
+
+
+}
+
+/*Add styling for devises betwine 426 & 520*/
 @media (min-width: 426px) and (max-width: 520px){
 .jumbotron-fluid {
 	
@@ -82,8 +124,14 @@ padding:20px 0 40px 0;
 	height: 400px;
 }
 
+.feature {
+	margin-top:0;
+}
 
-
+.logo{
+	width:60px;
+	height:60px;
+}
 /*creat pading whit logo ant texts*/
  h1 {
 padding-top:34px;
