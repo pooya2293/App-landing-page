@@ -75,7 +75,7 @@ padding:20px 0 40px 0;
 
 
 /*Add styling for devises under 480px*/
-@media (max-width: 520px){
+@media (min-width: 426px) and (max-width: 520px){
 .jumbotron-fluid {
 	
 	margin: 0;
